@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 400000}
   - component: {fileID: 14300000}
+  - component: {fileID: 2948591922238245641}
   - component: {fileID: 11400000}
+  - component: {fileID: 1555967154251451986}
   - component: {fileID: 5400000}
   - component: {fileID: 8200000}
   m_Layer: 0
@@ -53,6 +55,27 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2948591922238245641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8c2f0e203f90749ac01045f44cc592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSlider: {fileID: 0}
+  maxHealth: 100
+  currentHealth: 100
+  staminaSlider: {fileID: 0}
+  maxStamina: 100
+  currentStamina: 100
+  runningStaminaWasteAmount: 0.4
+  waitTimeBeforeRestorationStart: 1
+  staminaRestorationAmount: 0.3
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +200,19 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+--- !u!114 &1555967154251451986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 830fd185487b7724384bf91f1f2d7d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toTarget: 0
 --- !u!54 &5400000
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -334,9 +370,10 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
