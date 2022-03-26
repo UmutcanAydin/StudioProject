@@ -18,6 +18,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] float runningStaminaWasteAmount = 0.1f;
     [SerializeField] float waitTimeBeforeRestorationStart = 1f;
     [SerializeField] float staminaRestorationAmount = 0.1f;
+    [HideInInspector] public bool canRun = true;
     Coroutine restoreStaminaRoutine;
 
     bool startRestoringStamina = false;
@@ -52,7 +53,7 @@ public class PlayerStats : MonoBehaviour
         staminaSlider.value = currentStamina;
 
         #region Running Stamina Settings
-        if (!firstPersonController.m_IsWalking)
+        if (!firstPersonController.m_IsWalking && firstPersonController.m_MoveDir.z != 0)
         {
             //if running start wasting stamina
             startRestoringStamina = false;
@@ -65,6 +66,8 @@ public class PlayerStats : MonoBehaviour
             startRestoringStamina = true;
             restoreStaminaRoutine = StartCoroutine(RestoreStamina());
         }
+
+        if (currentStamina > runningStaminaWasteAmount) canRun = true;
         #endregion
 
         //Stamina Restoration
@@ -83,6 +86,7 @@ public class PlayerStats : MonoBehaviour
     public void WasteStamina(float amount)
     {
         currentStamina -= amount;
+        if (currentStamina <= runningStaminaWasteAmount) canRun = false;
     }
 
     IEnumerator RestoreStamina()
