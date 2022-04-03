@@ -11,6 +11,7 @@ public class PlayerCasting : MonoBehaviour
     Material defaultMaterial;
     Transform currentSelection;
     Renderer rend;
+    IInteractable item;
 
     public static float distanceFromTarget;
     public float toTarget;
@@ -24,6 +25,7 @@ public class PlayerCasting : MonoBehaviour
             rend.material = defaultMaterial;
             currentSelection = null;
             defaultMaterial = null;
+            item = null;
         }
 
         //Select
@@ -41,6 +43,11 @@ public class PlayerCasting : MonoBehaviour
                     rend.material = highlightMaterial;
 
                     currentSelection = selection;
+                    if(item == null) item = selection.GetComponent<IInteractable>();
+                    if (Input.GetButtonDown("Interact"))
+                    {
+                        if(item != null)item.Interact();
+                    }
                 }
             }
         }
