@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
+using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
+    public int healthCollectibleCount = 0;
+    public float amountToCure = 10f;
+    public TextMeshProUGUI healthItemText;
+
     [Header("Health Settings")]
     [SerializeField] Slider healthSlider;
     [SerializeField] float maxHealth = 100f;
@@ -40,6 +45,10 @@ public class PlayerStats : MonoBehaviour
         //Setting up initial health and stamina
         currentHealth = maxHealth;
         currentStamina = maxStamina;
+
+        healthItemText.text = healthCollectibleCount.ToString();
+
+        TakeDamage(50);
     }
 
     private void Update()
@@ -76,11 +85,30 @@ public class PlayerStats : MonoBehaviour
             currentStamina += staminaRestorationAmount;
             if (currentStamina >= maxStamina) restore = false;
         }
+
+        //Using Health Item
+        if (Input.GetKeyDown(KeyCode.Q) && healthCollectibleCount > 0)
+        {
+            healthCollectibleCount--;
+            healthItemText.text = healthCollectibleCount.ToString();
+            RestoreHealth(amountToCure);
+        }
     }
 
     public void TakeDamage(float amount)
     {
         currentHealth -= amount;
+    }
+
+    public void RestoreHealth(float amount)
+    {
+        currentHealth += amount;
+    }
+
+    public void AddHealthItem(int amount)
+    {
+        healthCollectibleCount += amount;
+        healthItemText.text = healthCollectibleCount.ToString();
     }
 
     public void WasteStamina(float amount)
@@ -94,4 +122,5 @@ public class PlayerStats : MonoBehaviour
         yield return new WaitForSeconds(waitTimeBeforeRestorationStart);
         restore = true;
     }
+
 }
