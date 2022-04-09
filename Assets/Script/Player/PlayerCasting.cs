@@ -67,7 +67,7 @@ public class PlayerCasting : MonoBehaviour
         //Shooting
         if(coolDown > 0) coolDown -= Time.deltaTime;
 
-        if (Input.GetMouseButtonDown(0) && coolDown <= 0)
+        if (Input.GetMouseButton(0) && coolDown <= 0 && !firing)
         {
             firing = true;
             fireRoutine = StartCoroutine(Fire());
