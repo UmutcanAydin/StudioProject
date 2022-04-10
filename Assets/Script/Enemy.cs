@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour
 {
     public float maxHealth = 100;
     public float currentHealth = 100;
+    public float movementSpeed = 2f;
+    public float stopRange = 10f;
     public Slider healthSlider;
     public Transform projectilePosition;
     public GameObject projectile;
@@ -43,16 +45,26 @@ public class Enemy : MonoBehaviour
         if (nearest != null)
         {
             transform.LookAt(nearest.transform);
-            if (!firing)
+            rgbd.velocity = transform.forward * movementSpeed;
+
+            if (Vector3.Distance(transform.position, nearest.transform.position) < stopRange)
             {
-                firing = true;
-                fireRoutine = StartCoroutine(Fire());
+                rgbd.velocity = Vector3.zero;
+                if (!firing)
+                {
+                    firing = true;
+                    fireRoutine = StartCoroutine(Fire());
+                }
+            }
+            else
+            {
+                firing = false;
+                if (fireRoutine != null) StopCoroutine(fireRoutine);
             }
         }
         else
         {
-            firing = false;
-            if (fireRoutine != null) StopCoroutine(fireRoutine);
+            rgbd.velocity = Vector3.zero;
         }
     }
 
