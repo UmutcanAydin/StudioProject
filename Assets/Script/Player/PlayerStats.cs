@@ -47,8 +47,6 @@ public class PlayerStats : MonoBehaviour
         currentStamina = maxStamina;
 
         healthItemText.text = healthCollectibleCount.ToString();
-
-        TakeDamage(50);
     }
 
     private void Update()

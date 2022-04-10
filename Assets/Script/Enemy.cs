@@ -9,10 +9,18 @@ public class Enemy : MonoBehaviour
     public float maxHealth = 100;
     public float currentHealth = 100;
     public Slider healthSlider;
+    public Transform projectilePosition;
+    public GameObject projectile;
 
     Rigidbody rgbd;
     PlayerStats playerStats;
     RangeSensor sensor;
+    bool firing = false;
+    GameObject bullet;
+    Rigidbody projectileRGBD;
+    public float force = 20f;
+    public float shootCoolDown = 1f;
+    Coroutine fireRoutine;
 
     private void Awake()
     {
@@ -32,7 +40,20 @@ public class Enemy : MonoBehaviour
         healthSlider.transform.LookAt(playerStats.transform);
 
         GameObject nearest = sensor.GetNearest();
-        if(nearest != null) transform.LookAt(nearest.transform);
+        if (nearest != null)
+        {
+            transform.LookAt(nearest.transform);
+            if (!firing)
+            {
+                firing = true;
+                fireRoutine = StartCoroutine(Fire());
+            }
+        }
+        else
+        {
+            firing = false;
+            if (fireRoutine != null) StopCoroutine(fireRoutine);
+        }
     }
 
     public void TakeDamage(float amount)
@@ -43,6 +64,18 @@ public class Enemy : MonoBehaviour
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
+        }
+    }
+
+    IEnumerator Fire()
+    {
+        while (firing)
+        {
+            bullet = Instantiate(projectile, projectilePosition.position, projectilePosition.rotation);
+            projectileRGBD = bullet.GetComponent<Rigidbody>();
+
+            projectileRGBD.AddForce(bullet.transform.forward * force, ForceMode.Impulse);
+            yield return new WaitForSeconds(shootCoolDown);
         }
     }
 }
