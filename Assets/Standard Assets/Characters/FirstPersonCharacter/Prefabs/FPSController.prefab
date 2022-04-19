@@ -221,6 +221,8 @@ MonoBehaviour:
   highlightMaterial: {fileID: 2100000, guid: 3d74bac2fa734f44c859d83f79eb2974, type: 2}
   selectionRaycastDistance: 3
   toTarget: 0
+  ammoNum: 5
+  ammoText: {fileID: 0}
   projectilePosition: {fileID: 543450651942061023}
   projectile: {fileID: 3928072357455806340, guid: 56e60a0a2a34a5c49aecab8a9eea1f05,
     type: 3}
