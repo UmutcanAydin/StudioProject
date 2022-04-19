@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerCasting : MonoBehaviour
 {
@@ -17,8 +18,10 @@ public class PlayerCasting : MonoBehaviour
     public float toTarget;
 
     [Header("Projectile Settings")]
+    public int ammoNum = 5;
+    public TextMeshProUGUI ammoText;
     public Transform projectilePosition;
-    public GameObject projectile;
+    public Bullet projectile;
     public float shootCoolDown = 1f;
     float coolDown;
     public float force = 20f;
@@ -26,7 +29,12 @@ public class PlayerCasting : MonoBehaviour
     bool fired = false;
     Coroutine fireRoutine;
     Rigidbody projectileRGBD;
-    GameObject bullet;
+    Bullet bullet;
+
+    private void Start()
+    {
+        UpdateText();
+    }
 
     void Update()
     {
@@ -92,12 +100,22 @@ public class PlayerCasting : MonoBehaviour
     {
         while (firing)
         {
+            if (ammoNum <= 0) yield break;
+
             bullet = Instantiate(projectile, projectilePosition.position, projectilePosition.rotation);
             projectileRGBD = bullet.GetComponent<Rigidbody>();
+            bullet.player = this;
 
             projectileRGBD.AddForce(bullet.transform.forward * force, ForceMode.Impulse);
+            ammoNum--;
+            UpdateText();
             fired = true;
             yield return new WaitForSeconds(shootCoolDown);
         }
+    }
+
+    public void UpdateText()
+    {
+        ammoText.text = ammoNum.ToString();
     }
 }

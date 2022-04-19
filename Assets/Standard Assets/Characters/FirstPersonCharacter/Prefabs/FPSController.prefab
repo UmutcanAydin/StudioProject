@@ -222,7 +222,7 @@ MonoBehaviour:
   selectionRaycastDistance: 3
   toTarget: 0
   projectilePosition: {fileID: 543450651942061023}
-  projectile: {fileID: 6631692135984192909, guid: 56e60a0a2a34a5c49aecab8a9eea1f05,
+  projectile: {fileID: 3928072357455806340, guid: 56e60a0a2a34a5c49aecab8a9eea1f05,
     type: 3}
   shootCoolDown: 0.5
   force: 20
