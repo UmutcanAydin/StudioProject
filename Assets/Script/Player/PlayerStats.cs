@@ -7,6 +7,8 @@ using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
+    public GameObject endGamePanel;
+
     public int healthCollectibleCount = 0;
     public float amountToCure = 10f;
     public TextMeshProUGUI healthItemText;
@@ -29,10 +31,12 @@ public class PlayerStats : MonoBehaviour
     bool startRestoringStamina = false;
     bool restore = false;
 
+    SceneManagement mngr;
     FirstPersonController firstPersonController;
 
     private void Awake()
     {
+        mngr = FindObjectOfType<SceneManagement>();
         firstPersonController = GetComponent<FirstPersonController>();
     }
 
@@ -51,6 +55,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
+
         //Clamp health and stamina between 0 and max values
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
@@ -96,6 +101,10 @@ public class PlayerStats : MonoBehaviour
     public void TakeDamage(float amount)
     {
         currentHealth -= amount;
+        if (currentHealth <= 0)
+        {
+            mngr.RestartLevel();
+        }
     }
 
     public void RestoreHealth(float amount)
