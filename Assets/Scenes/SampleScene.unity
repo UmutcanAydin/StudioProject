@@ -213,12 +213,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b162c0e0410f4a948857667424bd4af2, type: 3}
---- !u!1 &241267553 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 241267553, guid: 95d5cd90048d9ea4da672e2de811d9de,
-    type: 3}
-  m_PrefabInstance: {fileID: 6969755020098776826}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &288278455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -308,53 +302,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b162c0e0410f4a948857667424bd4af2, type: 3}
---- !u!1 &396713229
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 396713231}
-  - component: {fileID: 396713230}
-  m_Layer: 0
-  m_Name: GameSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &396713230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396713229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbfa64aa3e3156a49902c35d2b773221, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartPrefabs: []
-  TargetMissedPenalty: 1
-  BGMPlayer: {fileID: 0}
-  EndGameSound: {fileID: 0}
---- !u!4 &396713231
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396713229}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &413640623
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,7 +900,7 @@ PrefabInstance:
         type: 3}
       propertyPath: endGamePanel
       value: 
-      objectReference: {fileID: 241267553}
+      objectReference: {fileID: 0}
     - target: {fileID: 2948591922238245641, guid: 5e9e851c0e142814dac026a256ba2ac0,
         type: 3}
       propertyPath: healthSlider
