@@ -6,11 +6,12 @@ public class Door : MonoBehaviour, IInteractable
 {
     public GameObject door;
     public Transform openedPos;
+    [HideInInspector] public bool keyFound = false;
     bool open = false;
-    
+
     public void Interact()
     {
-        open = true;
+        if(keyFound) open = true;
     }
 
     private void Update()
