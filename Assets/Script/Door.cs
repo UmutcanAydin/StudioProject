@@ -17,6 +17,6 @@ public class Door : MonoBehaviour, IInteractable
     private void Update()
     {
         if (!open) return;
-        door.transform.position = Vector3.MoveTowards(door.transform.position, openedPos.position, Time.deltaTime * 10f);
+        door.transform.position = Vector3.MoveTowards(door.transform.position, openedPos.position, Time.deltaTime * 100f);
     }
 }
