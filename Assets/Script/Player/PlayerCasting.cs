@@ -31,6 +31,16 @@ public class PlayerCasting : MonoBehaviour
     Rigidbody projectileRGBD;
     Bullet bullet;
 
+    [Header("Melee Settings")]
+    public BoxCollider injector;
+    Animator animator;
+    bool canAttack = true; 
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     private void Start()
     {
         UpdateText();
@@ -94,6 +104,11 @@ public class PlayerCasting : MonoBehaviour
             toTarget = hit.distance;
             distanceFromTarget = hit.distance;            
         }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            MeleeAttack();
+        }
     }
 
     IEnumerator Fire()
@@ -117,5 +132,27 @@ public class PlayerCasting : MonoBehaviour
     public void UpdateText()
     {
         ammoText.text = ammoNum.ToString();
+    }
+
+    public void MeleeAttack()
+    {
+        if (canAttack)
+        {
+            canAttack = false;
+            animator.Play("Attack");
+        }
+    }
+
+    public void EnableMeleeCollider()
+    {
+        injector.enabled = true;
+        StartCoroutine(DisableMeleeCollider());
+    }
+
+    IEnumerator DisableMeleeCollider()
+    {
+        yield return new WaitForSeconds(0.2f);
+        injector.enabled = false;
+        canAttack = true;
     }
 }

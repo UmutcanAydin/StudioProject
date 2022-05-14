@@ -7,8 +7,6 @@ using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
-    public GameObject endGamePanel;
-
     public int healthCollectibleCount = 0;
     public float amountToCure = 10f;
     public TextMeshProUGUI healthItemText;
