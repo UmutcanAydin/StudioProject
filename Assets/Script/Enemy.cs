@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
     public float force = 20f;
     public float shootCoolDown = 1f;
     Coroutine fireRoutine;
+    [HideInInspector] public bool hit = false;
 
     private void Awake()
     {
@@ -45,12 +46,13 @@ public class Enemy : MonoBehaviour
         if (nearest != null)
         {
             transform.LookAt(nearest.transform);
+            if (hit) return;
             //rgbd.velocity = transform.forward * movementSpeed;
             rgbd.velocity = new Vector3(transform.forward.x * movementSpeed, rgbd.velocity.y, transform.forward.z * movementSpeed);
 
             if (Vector3.Distance(transform.position, nearest.transform.position) < stopRange)
             {
-                rgbd.velocity = Vector3.zero;
+                rgbd.velocity = new Vector3(0, rgbd.velocity.y, 0);
                 if (!firing)
                 {
                     firing = true;
@@ -90,5 +92,16 @@ public class Enemy : MonoBehaviour
             projectileRGBD.AddForce(bullet.transform.forward * force, ForceMode.Impulse);
             yield return new WaitForSeconds(shootCoolDown);
         }
+    }
+
+    public void RestartHitState()
+    {
+        StartCoroutine(RHitState());
+    }
+
+    IEnumerator RHitState()
+    {
+        yield return new WaitForSeconds(1f);
+        hit = false;
     }
 }

@@ -22,11 +22,19 @@ public class Bullet : MonoBehaviour
         {
             Enemy enemy = other.GetComponent<Enemy>();
             enemy.TakeDamage(damage);
+
+            enemy.GetComponent<Rigidbody>().AddForce(new Vector3(0, enemy.transform.up.y * 2, transform.forward.z * 2) * 2, ForceMode.Impulse);
+            enemy.hit = true;
+            enemy.RestartHitState();
         }
         else if (other.GetComponent<MeleeEnemy>())
         {
             MeleeEnemy meleeEnemy = other.GetComponent<MeleeEnemy>();
             meleeEnemy.TakeDamage(damage);
+
+            meleeEnemy.GetComponent<Rigidbody>().AddForce(new Vector3(0, meleeEnemy.transform.up.y * 5, transform.forward.z * 2), ForceMode.Impulse);
+            meleeEnemy.hit = true;
+            meleeEnemy.RestartHitState();
         }
         cld.enabled = false;
         rgbd.velocity = Vector3.zero;

@@ -17,6 +17,19 @@ public class Injector : MonoBehaviour
         {
             Enemy enemy = other.GetComponent<Enemy>();
             enemy.TakeDamage(damage);
+
+            enemy.GetComponent<Rigidbody>().AddForce(new Vector3(0, enemy.transform.up.y * 2, transform.forward.z * 2) * 2, ForceMode.Impulse);
+            enemy.hit = true;
+            enemy.RestartHitState();
+        }
+        else if (other.GetComponent<MeleeEnemy>())
+        {
+            MeleeEnemy enemy = other.GetComponent<MeleeEnemy>();
+            enemy.TakeDamage(damage);
+
+            enemy.GetComponent<Rigidbody>().AddForce(new Vector3(0, enemy.transform.up.y * 2, transform.forward.z * 2) * 2, ForceMode.Impulse);
+            enemy.hit = true;
+            enemy.RestartHitState();
         }
         cld.enabled = false;
     }

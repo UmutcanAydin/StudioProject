@@ -19,6 +19,7 @@ public class MeleeEnemy : MonoBehaviour
     bool firing = false;
     public float shootCoolDown = 1f;
     Coroutine fireRoutine;
+    [HideInInspector] public bool hit = false;
 
     private void Awake()
     {
@@ -41,12 +42,13 @@ public class MeleeEnemy : MonoBehaviour
         if (nearest != null)
         {
             transform.LookAt(nearest.transform);
+            if (hit) return;
             //rgbd.velocity = transform.forward * movementSpeed;
             rgbd.velocity = new Vector3(transform.forward.x * movementSpeed, rgbd.velocity.y, transform.forward.z * movementSpeed);
 
             if (Vector3.Distance(transform.position, nearest.transform.position) < stopRange)
             {
-                rgbd.velocity = Vector3.zero;
+                rgbd.velocity = new Vector3(0, rgbd.velocity.y, 0);
                 if (!firing)
                 {
                     firing = true;
@@ -90,5 +92,16 @@ public class MeleeEnemy : MonoBehaviour
         attackBox.enabled = true;
         yield return new WaitForSeconds(0.2f);
         attackBox.enabled = false;
+    }
+
+    public void RestartHitState()
+    {
+        StartCoroutine(RHitState());
+    }
+
+    IEnumerator RHitState()
+    {
+        yield return new WaitForSeconds(1f);
+        hit = false;
     }
 }

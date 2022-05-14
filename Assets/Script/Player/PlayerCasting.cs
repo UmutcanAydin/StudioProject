@@ -143,6 +143,7 @@ public class PlayerCasting : MonoBehaviour
         }
     }
 
+    //Called from animation
     public void EnableMeleeCollider()
     {
         injector.enabled = true;
