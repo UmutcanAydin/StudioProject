@@ -45,7 +45,8 @@ public class Enemy : MonoBehaviour
         if (nearest != null)
         {
             transform.LookAt(nearest.transform);
-            rgbd.velocity = transform.forward * movementSpeed;
+            //rgbd.velocity = transform.forward * movementSpeed;
+            rgbd.velocity = new Vector3(transform.forward.x * movementSpeed, rgbd.velocity.y, transform.forward.z * movementSpeed);
 
             if (Vector3.Distance(transform.position, nearest.transform.position) < stopRange)
             {
@@ -64,7 +65,7 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            rgbd.velocity = Vector3.zero;
+            rgbd.velocity = new Vector3(0, rgbd.velocity.y, 0);
         }
     }
 

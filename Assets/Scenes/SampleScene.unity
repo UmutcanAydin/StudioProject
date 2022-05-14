@@ -547,6 +547,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5171098361993935641, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0000014901159
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098361993935641, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453171, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_RootOrder
@@ -560,7 +570,7 @@ PrefabInstance:
     - target: {fileID: 5171098362155453171, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.8199997
+      value: 7.87
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453171, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -1953,19 +1963,9 @@ PrefabInstance:
       objectReference: {fileID: 1522515303}
     - target: {fileID: 7402344552576451460, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
-      propertyPath: maxHealth
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 7402344552576451460, guid: fd3fe8300acf8644f891062db346b977,
-        type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 934178732}
-    - target: {fileID: 7402344552576451460, guid: fd3fe8300acf8644f891062db346b977,
-        type: 3}
-      propertyPath: currentHealth
-      value: 1000
-      objectReference: {fileID: 0}
     - target: {fileID: 7402344552576451460, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
       propertyPath: staminaSlider
