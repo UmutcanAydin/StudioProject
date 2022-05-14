@@ -23,6 +23,11 @@ public class Bullet : MonoBehaviour
             Enemy enemy = other.GetComponent<Enemy>();
             enemy.TakeDamage(damage);
         }
+        else if (other.GetComponent<MeleeEnemy>())
+        {
+            MeleeEnemy meleeEnemy = other.GetComponent<MeleeEnemy>();
+            meleeEnemy.TakeDamage(damage);
+        }
         cld.enabled = false;
         rgbd.velocity = Vector3.zero;
         rgbd.AddForce(Vector3.up * 5, ForceMode.Impulse);
