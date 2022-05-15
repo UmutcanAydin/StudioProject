@@ -487,7 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 100
-  movementSpeed: 4
+  movementSpeed: 8
   stopRange: 3.2
   healthSlider: {fileID: 5385423033153745998}
   attackBox: {fileID: 2216377602682253370}
@@ -553,7 +553,7 @@ MonoBehaviour:
   TestLOSTargetsOnly: 0
   NumberOfRays: 1
   MinimumVisibility: 0.5
-  SensorRange: 25
+  SensorRange: 65
   DetectsOnLayers:
     serializedVersion: 2
     m_Bits: 4294967295

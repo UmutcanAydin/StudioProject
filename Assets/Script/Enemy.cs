@@ -14,6 +14,14 @@ public class Enemy : MonoBehaviour
     public Transform projectilePosition;
     public GameObject projectile;
 
+    [Header("Levels")]
+    public bool level1Enemy = true;
+    public bool level2Enemy = false;
+    public bool level3Enemy = false;
+    public bool level4Enemy = false;
+    public bool level5Enemy = false;
+    public bool level6Enemy = false;
+
     Rigidbody rgbd;
     PlayerStats playerStats;
     RangeSensor sensor;
@@ -24,11 +32,13 @@ public class Enemy : MonoBehaviour
     public float shootCoolDown = 1f;
     Coroutine fireRoutine;
     [HideInInspector] public bool hit = false;
+    LevelManager lvlManager;
 
     private void Awake()
     {
         rgbd = GetComponent<Rigidbody>();
         playerStats = FindObjectOfType<PlayerStats>();
+        lvlManager = FindObjectOfType<LevelManager>();
         sensor = GetComponent<RangeSensor>();
     }
 
@@ -78,6 +88,7 @@ public class Enemy : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            if (level1Enemy) lvlManager.level1DeadEnemyCount++;
             Destroy(gameObject);
         }
     }

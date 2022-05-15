@@ -1042,7 +1042,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5171098361993935640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.25, z: 1.104}
+  m_LocalPosition: {x: 0, y: 0.25, z: 1.104}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.3}
   m_Children: []
   m_Father: {fileID: 5171098362155453171}
@@ -1307,6 +1307,7 @@ MonoBehaviour:
     type: 3}
   force: 20
   shootCoolDown: 1
+  hit: 0
 --- !u!136 &5171098362155453168
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1367,7 +1368,7 @@ MonoBehaviour:
   TestLOSTargetsOnly: 0
   NumberOfRays: 1
   MinimumVisibility: 0.5
-  SensorRange: 25
+  SensorRange: 50
   DetectsOnLayers:
     serializedVersion: 2
     m_Bits: 4294967295
