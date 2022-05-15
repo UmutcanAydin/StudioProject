@@ -11,6 +11,7 @@ public class DoorKey : MonoBehaviour
         if (other.GetComponent<PlayerStats>())
         {
             connectedDoor.keyFound = true;
+            connectedDoor.Interact();
             Destroy(gameObject);
         }
     }
