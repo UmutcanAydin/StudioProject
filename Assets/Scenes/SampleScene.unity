@@ -52385,16 +52385,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5643548671165021133, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
-      propertyPath: m_RunSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5643548671165021133, guid: fd3fe8300acf8644f891062db346b977,
-        type: 3}
-      propertyPath: m_WalkSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5643548671165021133, guid: fd3fe8300acf8644f891062db346b977,
-        type: 3}
       propertyPath: m_GravityMultiplier
       value: 2
       objectReference: {fileID: 0}
@@ -52457,11 +52447,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FPSController
-      objectReference: {fileID: 0}
-    - target: {fileID: 6612989044124255967, guid: fd3fe8300acf8644f891062db346b977,
-        type: 3}
-      propertyPath: force
-      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6612989044124255967, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
