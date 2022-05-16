@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Acid : MonoBehaviour
 {
+    public Transform respawnPoint;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<Enemy>())
@@ -18,8 +20,10 @@ public class Acid : MonoBehaviour
         }
         else if (other.GetComponent<PlayerStats>())
         {
-            PlayerStats player = other.GetComponent<PlayerStats>();
-            player.TakeDamage(1000);
+            CharacterController player = other.GetComponent<CharacterController>();
+            player.enabled = false;
+            player.transform.position = respawnPoint.position;
+            player.enabled = true;
         }
         //Destroy(gameObject);
     }
