@@ -26,6 +26,7 @@ public class Bullet : MonoBehaviour
             enemy.GetComponent<Rigidbody>().AddForce(new Vector3(0, enemy.transform.up.y * 2, transform.forward.z * 2) * 2, ForceMode.Impulse);
             enemy.hit = true;
             enemy.RestartHitState();
+            AudioManager.Instance.PlayWithoutPitch(AudioManager.Instance.hitEnemyFX, 1f);
         }
         else if (other.GetComponent<MeleeEnemy>())
         {
@@ -35,6 +36,7 @@ public class Bullet : MonoBehaviour
             meleeEnemy.GetComponent<Rigidbody>().AddForce(new Vector3(0, meleeEnemy.transform.up.y * 5, transform.forward.z * 2), ForceMode.Impulse);
             meleeEnemy.hit = true;
             meleeEnemy.RestartHitState();
+            AudioManager.Instance.PlayWithoutPitch(AudioManager.Instance.hitEnemyFX, 1f);
         }
         cld.enabled = false;
         rgbd.velocity = Vector3.zero;

@@ -19,6 +19,7 @@ public class EnemyAttackBox : MonoBehaviour
         {
             PlayerStats player = other.GetComponent<PlayerStats>();
             player.TakeDamage(damage);
+            AudioManager.Instance.PlayWithoutPitch(AudioManager.Instance.hitPlayerFX, 1f);
         }
         cld.enabled = false;
     }

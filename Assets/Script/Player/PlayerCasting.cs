@@ -140,6 +140,7 @@ public class PlayerCasting : MonoBehaviour
         {
             canAttack = false;
             animator.Play("Attack");
+            AudioManager.Instance.PlayWithoutPitch(AudioManager.Instance.syringeFX, 1f);
         }
     }
 

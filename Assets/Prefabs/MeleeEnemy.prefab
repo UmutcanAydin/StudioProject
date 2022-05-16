@@ -485,12 +485,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1319fc1c68aa7c64dad0471a1f9bd006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 100
+  maxHealth: 80
+  currentHealth: 80
   movementSpeed: 8
   stopRange: 3.2
   healthSlider: {fileID: 5385423033153745998}
   attackBox: {fileID: 2216377602682253370}
+  level1Enemy: 1
+  level2Enemy: 0
+  level3Enemy: 0
+  level4Enemy: 0
+  level5Enemy: 0
+  level6Enemy: 0
   shootCoolDown: 2
   hit: 0
 --- !u!136 &5385423034446205314

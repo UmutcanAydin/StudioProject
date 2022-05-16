@@ -314,11 +314,11 @@ MonoBehaviour:
   amountToCure: 50
   healthItemText: {fileID: 0}
   healthSlider: {fileID: 0}
-  maxHealth: 100
-  currentHealth: 100
+  maxHealth: 500
+  currentHealth: 500
   staminaSlider: {fileID: 0}
-  maxStamina: 100
-  currentStamina: 100
+  maxStamina: 250
+  currentStamina: 250
   runningStaminaWasteAmount: 0.2
   waitTimeBeforeRestorationStart: 1
   staminaRestorationAmount: 0.3
