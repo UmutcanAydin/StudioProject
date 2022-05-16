@@ -49,9 +49,9 @@ public class Bullet : MonoBehaviour
     {
         if (goToPlayer)
         {
-            Vector3 playerPos = new Vector3(player.transform.position.x, player.transform.position.y + 1.5f, player.transform.position.z);
-            transform.position = Vector3.MoveTowards(transform.position, playerPos, 40 * Time.deltaTime);
-            if (Vector3.Distance(transform.position, playerPos) < 1f)
+            Vector3 playerPos = new Vector3(player.transform.position.x, player.transform.position.y + 2.5f, player.transform.position.z);
+            transform.position = Vector3.MoveTowards(transform.position, playerPos, 50 * Time.deltaTime);
+            if (Vector3.Distance(transform.position, playerPos) < 2f)
             {
                 player.ammoNum++;
                 player.UpdateText();
