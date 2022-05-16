@@ -48,7 +48,7 @@ MonoBehaviour:
   EffectsSource: {fileID: 1147485411208069962}
   LowPitchRange: 0.95
   HighPitchRange: 1.05
-  hitEnemyFX: {fileID: 0}
+  hitEnemyFX: {fileID: 8300000, guid: cee220a709957534a9d04003dab93c91, type: 3}
   hitPlayerFX: {fileID: 8300000, guid: ae75b3fa74e959445b75df80720fa7c2, type: 3}
   syringeFX: {fileID: 8300000, guid: 0b571ab35c1e5874e892bb1c6741e209, type: 3}
 --- !u!82 &1147485411208069962
