@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthCollectibleCount: 0
-  amountToCure: 50
+  amountToCure: 150
   healthItemText: {fileID: 0}
   healthSlider: {fileID: 0}
   maxHealth: 500
