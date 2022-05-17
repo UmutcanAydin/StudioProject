@@ -317,8 +317,8 @@ MonoBehaviour:
   maxHealth: 500
   currentHealth: 500
   staminaSlider: {fileID: 0}
-  maxStamina: 250
-  currentStamina: 250
+  maxStamina: 200
+  currentStamina: 200
   runningStaminaWasteAmount: 0.2
   waitTimeBeforeRestorationStart: 1
   staminaRestorationAmount: 0.3
