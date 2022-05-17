@@ -53,17 +53,24 @@ public class Bullet : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, playerPos, 50 * Time.deltaTime);
             if (Vector3.Distance(transform.position, playerPos) < 2f)
             {
-                player.ammoNum++;
-                player.UpdateText();
-                Destroy(gameObject);
+                Handle();
             }
         }
 
+    }
+
+    private void Handle()
+    {
+        player.ammoNum++;
+        player.UpdateText();
+        Destroy(gameObject);
     }
 
     IEnumerator GoToPlayer()
     {
         yield return new WaitForSeconds(1f);
         goToPlayer = true;
+        yield return new WaitForSeconds(3f);
+        Handle();
     }
 }

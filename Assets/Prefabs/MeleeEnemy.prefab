@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f51032be565b6424e906615fc6307656, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 8
 --- !u!1 &5385423032837540612
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,8 +485,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1319fc1c68aa7c64dad0471a1f9bd006, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
-  currentHealth: 50
+  maxHealth: 40
+  currentHealth: 40
   movementSpeed: 12
   stopRange: 3.2
   healthSlider: {fileID: 5385423033153745998}
