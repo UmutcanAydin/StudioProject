@@ -23,9 +23,12 @@ public class Bullet : MonoBehaviour
             Enemy enemy = other.GetComponent<Enemy>();
             enemy.TakeDamage(damage);
 
-            enemy.GetComponent<Rigidbody>().AddForce(new Vector3(0, enemy.transform.up.y * 2, transform.forward.z * 2) * 2, ForceMode.Impulse);
-            enemy.hit = true;
-            enemy.RestartHitState();
+            if (!other.GetComponent<Enemy>().flyingType)
+            {
+                enemy.GetComponent<Rigidbody>().AddForce(new Vector3(0, enemy.transform.up.y * 2, transform.forward.z * 2) * 2, ForceMode.Impulse);
+                enemy.hit = true;
+                enemy.RestartHitState();
+            }
             AudioManager.Instance.PlayWithoutPitch(AudioManager.Instance.hitEnemyFX, 1f);
         }
         else if (other.GetComponent<MeleeEnemy>())

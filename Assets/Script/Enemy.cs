@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour
     public Slider healthSlider;
     public Transform projectilePosition;
     public GameObject projectile;
+    public bool flyingType = false;
 
     [Header("Levels")]
     public bool level1Enemy = true;
