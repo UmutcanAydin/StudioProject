@@ -52707,18 +52707,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 700953058, guid: ef498b07843133146abb7e49515f390e, type: 3}
-      propertyPath: EnableTagFilter
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 700953058, guid: ef498b07843133146abb7e49515f390e, type: 3}
-      propertyPath: AllowedTags.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 700953058, guid: ef498b07843133146abb7e49515f390e, type: 3}
-      propertyPath: AllowedTags.Array.data[0]
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 4421544257857471543, guid: ef498b07843133146abb7e49515f390e,
         type: 3}
       propertyPath: m_Name
