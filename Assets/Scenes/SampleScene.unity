@@ -52699,6 +52699,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 363233548, guid: ef498b07843133146abb7e49515f390e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 363233548, guid: ef498b07843133146abb7e49515f390e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700953058, guid: ef498b07843133146abb7e49515f390e, type: 3}
+      propertyPath: EnableTagFilter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 700953058, guid: ef498b07843133146abb7e49515f390e, type: 3}
+      propertyPath: AllowedTags.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 700953058, guid: ef498b07843133146abb7e49515f390e, type: 3}
+      propertyPath: AllowedTags.Array.data[0]
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4421544257857471543, guid: ef498b07843133146abb7e49515f390e,
         type: 3}
       propertyPath: m_Name
@@ -52708,21 +52728,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4421544257857575383, guid: ef498b07843133146abb7e49515f390e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4421544257857575383, guid: ef498b07843133146abb7e49515f390e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4421544257857575383, guid: ef498b07843133146abb7e49515f390e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4421544257857575383, guid: ef498b07843133146abb7e49515f390e,
         type: 3}
