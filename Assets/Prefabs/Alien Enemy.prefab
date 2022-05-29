@@ -983,7 +983,6 @@ MonoBehaviour:
   projectile: {fileID: 6631692135984192909, guid: 4107bc3ebcc90384c8550da7b26c5250,
     type: 3}
   flyingType: 0
-  boss: 1
   level1Enemy: 0
   level2Enemy: 0
   level3Enemy: 1
@@ -1023,7 +1022,7 @@ MonoBehaviour:
   TestLOSTargetsOnly: 0
   NumberOfRays: 1
   MinimumVisibility: 0.5
-  SensorRange: 60
+  SensorRange: 90
   DetectsOnLayers:
     serializedVersion: 2
     m_Bits: 4294967295
