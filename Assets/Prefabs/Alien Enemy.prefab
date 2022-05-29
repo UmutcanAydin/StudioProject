@@ -989,7 +989,7 @@ MonoBehaviour:
   level4Enemy: 0
   level5Enemy: 0
   level6Enemy: 0
-  force: 40
+  force: 60
   shootCoolDown: 0.5
   hit: 0
 --- !u!114 &700953058

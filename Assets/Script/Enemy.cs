@@ -101,10 +101,10 @@ public class Enemy : MonoBehaviour
     IEnumerator Fire()
     {
         while (firing)
-        {
+        { 
             bullet = Instantiate(projectile, projectilePosition.position, projectilePosition.rotation);
             projectileRGBD = bullet.GetComponent<Rigidbody>();
-
+            bullet.transform.LookAt(playerStats.transform);
             projectileRGBD.AddForce(bullet.transform.forward * force, ForceMode.Impulse);
             yield return new WaitForSeconds(shootCoolDown);
         }
