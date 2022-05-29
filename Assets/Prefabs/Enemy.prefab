@@ -1145,14 +1145,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab14d5f530b35247aaefa9e35acf7b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 70
-  currentHealth: 70
+  maxHealth: 50
+  currentHealth: 50
   movementSpeed: 3
   stopRange: 10
   healthSlider: {fileID: 5171098363313778492}
   projectilePosition: {fileID: 5171098361993935641}
   projectile: {fileID: 6631692135984192909, guid: 137b625cbbe659c47b3477d08150cbc1,
     type: 3}
+  flyingType: 0
   level1Enemy: 1
   level2Enemy: 0
   level3Enemy: 0
