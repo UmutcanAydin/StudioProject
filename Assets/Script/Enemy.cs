@@ -68,7 +68,7 @@ public class Enemy : MonoBehaviour
                 if (!firing)
                 {
                     firing = true;
-                    fireRoutine = StartCoroutine(Fire());
+                    if(fireRoutine == null) fireRoutine = StartCoroutine(Fire());
                 }
             }
             else
