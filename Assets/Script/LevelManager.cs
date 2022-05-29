@@ -31,6 +31,13 @@ public class LevelManager : MonoBehaviour
     [HideInInspector] public int level4DeadEnemyCount = 0;
     bool level4Handled = false;
 
+    [Header("Level 5 Settings")]
+    public string level5Instruction = "Eliminate The Mini Boss";
+    public GameObject[] lvl5enemies;
+    public Door lvl5Door;
+    [HideInInspector] public int level5DeadEnemyCount = 0;
+    bool level5Handled = false;
+
     private void Start()
     {
         missionText.text = level1Instruction;
@@ -56,6 +63,12 @@ public class LevelManager : MonoBehaviour
             level4Handled = true;
             lvl4Door.keyFound = true;
             lvl4Door.Interact();
+        }
+        if (!level5Handled && level5DeadEnemyCount >= lvl5enemies.Length)
+        {
+            level5Handled = true;
+            lvl5Door.keyFound = true;
+            lvl5Door.Interact();
         }
     }
 }

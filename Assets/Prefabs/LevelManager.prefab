@@ -44,7 +44,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   missionText: {fileID: 0}
+  level1Instruction: Eliminate All Enemies
   enemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -61,8 +65,8 @@ MonoBehaviour:
   - {fileID: 0}
   lvl1Door: {fileID: 0}
   level1DeadEnemyCount: 0
-  level1Instruction: Eliminate All Enemies
   level2Instruction: Find The Key
+  level3Instruction: Eliminate All Enemies
   lvl3enemies:
   - {fileID: 0}
   - {fileID: 0}
@@ -132,3 +136,23 @@ MonoBehaviour:
   - {fileID: 0}
   lvl3Door: {fileID: 0}
   level3DeadEnemyCount: 0
+  level4Instruction: Eliminate All Enemies
+  lvl4enemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lvl4Door: {fileID: 0}
+  level4DeadEnemyCount: 0
+  level5Instruction: Eliminate The Mini Boss
+  lvl5enemies:
+  - {fileID: 0}
+  lvl5Door: {fileID: 0}
+  level5DeadEnemyCount: 0
