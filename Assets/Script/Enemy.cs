@@ -91,6 +91,9 @@ public class Enemy : MonoBehaviour
         if (currentHealth <= 0)
         {
             if (level1Enemy) lvlManager.level1DeadEnemyCount++;
+            else if (level3Enemy) lvlManager.level3DeadEnemyCount++;
+            else if (level4Enemy) lvlManager.level4DeadEnemyCount++;
+            else if (level5Enemy) lvlManager.level5DeadEnemyCount++;
             Destroy(gameObject);
         }
     }

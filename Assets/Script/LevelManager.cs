@@ -57,18 +57,21 @@ public class LevelManager : MonoBehaviour
             level3Handled = true;
             lvl3Door.keyFound = true;
             lvl3Door.Interact();
+            missionText.text = level3Instruction;
         }
         if (!level4Handled && level4DeadEnemyCount >= lvl4enemies.Length)
         {
             level4Handled = true;
             lvl4Door.keyFound = true;
             lvl4Door.Interact();
+            missionText.text = level4Instruction;
         }
         if (!level5Handled && level5DeadEnemyCount >= lvl5enemies.Length)
         {
             level5Handled = true;
             lvl5Door.keyFound = true;
             lvl5Door.Interact();
+            missionText.text = level5Instruction;
         }
     }
 }
