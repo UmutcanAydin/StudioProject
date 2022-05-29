@@ -376,12 +376,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -777,6 +777,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy mini (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
       propertyPath: m_RootOrder
@@ -1067,12 +1077,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -1576,6 +1586,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39204476}
   m_Mesh: {fileID: 4300000, guid: 2f78ec1bfcadebe44a46cbc4f60f1353, type: 3}
+--- !u!1 &41276834 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1779223813}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &43986316
 GameObject:
   m_ObjectHideFlags: 0
@@ -2253,6 +2269,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy mini (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
       propertyPath: m_RootOrder
@@ -2395,12 +2421,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -3307,12 +3333,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -4129,12 +4155,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -4762,6 +4788,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -6315,12 +6351,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -6506,12 +6542,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -6690,6 +6726,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_Name
@@ -6784,6 +6830,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -7112,6 +7168,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
       propertyPath: movementSpeed
       value: 0
       objectReference: {fileID: 0}
@@ -7320,6 +7386,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 944356212020300863, guid: 926b3e0ad8485604db6c5d94664caccb,
     type: 3}
   m_PrefabInstance: {fileID: 409230934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &190009197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 57700347}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &190565576
 GameObject:
@@ -8263,6 +8335,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 212692949}
   m_Mesh: {fileID: 4300000, guid: 66eec8bc5f76eda4db6c6b5d91ab7f45, type: 3}
+--- !u!1 &216263869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1875960638}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &224153505
 GameObject:
   m_ObjectHideFlags: 0
@@ -8457,6 +8535,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OctoEnemy mini (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
@@ -9756,12 +9844,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -9943,6 +10031,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -13106,12 +13204,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -14559,6 +14657,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 926b3e0ad8485604db6c5d94664caccb,
         type: 3}
       propertyPath: m_RootOrder
@@ -14819,12 +14927,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -15179,6 +15287,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6, y: 1, z: 15}
   m_Center: {x: 0, y: 0, z: 0.7}
+--- !u!114 &420979824 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5756313623646258912, guid: 12e3fab70d1feb541811f87d6d819534,
+    type: 3}
+  m_PrefabInstance: {fileID: 1959598601}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99688d17e4de454e89645a893166089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &422294980
 GameObject:
   m_ObjectHideFlags: 0
@@ -15350,12 +15470,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -16344,12 +16464,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -17111,6 +17231,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
       propertyPath: movementSpeed
       value: 0
       objectReference: {fileID: 0}
@@ -17552,12 +17682,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -18541,6 +18671,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_Name
@@ -18922,12 +19062,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -19336,12 +19476,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -19437,12 +19577,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -21160,6 +21300,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_Name
@@ -21197,6 +21347,14 @@ PrefabInstance:
     - target: {fileID: 363233548, guid: ef498b07843133146abb7e49515f390e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700953059, guid: ef498b07843133146abb7e49515f390e, type: 3}
+      propertyPath: level3Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 700953059, guid: ef498b07843133146abb7e49515f390e, type: 3}
+      propertyPath: level5Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4421544257857471543, guid: ef498b07843133146abb7e49515f390e,
         type: 3}
@@ -21854,6 +22012,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 926b3e0ad8485604db6c5d94664caccb,
         type: 3}
       propertyPath: m_RootOrder
@@ -22476,6 +22644,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OctoEnemy (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 926b3e0ad8485604db6c5d94664caccb,
         type: 3}
@@ -23495,6 +23673,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6, y: 1, z: 15}
   m_Center: {x: 0, y: 0, z: 0.7}
+--- !u!1 &645730485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1448552973}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &648675959
 GameObject:
   m_ObjectHideFlags: 0
@@ -23698,12 +23882,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -23969,12 +24153,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -25608,6 +25792,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: m_Name
@@ -25778,6 +25972,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -26642,12 +26846,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -29757,6 +29961,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788746326}
   m_Mesh: {fileID: 4300000, guid: 66eec8bc5f76eda4db6c6b5d91ab7f45, type: 3}
+--- !u!1 &791028265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1919908900}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &794378940
 GameObject:
   m_ObjectHideFlags: 0
@@ -31316,6 +31526,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 859535057}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &850388331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1314579413}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &851928311
 GameObject:
   m_ObjectHideFlags: 0
@@ -31519,6 +31735,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OctoEnemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300861, guid: 926b3e0ad8485604db6c5d94664caccb,
         type: 3}
@@ -33210,12 +33436,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -33422,6 +33648,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891251775}
   m_Mesh: {fileID: 4300000, guid: 66eec8bc5f76eda4db6c6b5d91ab7f45, type: 3}
+--- !u!1 &894630987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1173083936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &898769662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33641,6 +33873,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OctoEnemy (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 926b3e0ad8485604db6c5d94664caccb,
         type: 3}
@@ -34799,6 +35041,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
       propertyPath: movementSpeed
       value: 0
       objectReference: {fileID: 0}
@@ -35934,12 +36186,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -36067,6 +36319,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -36262,12 +36524,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -36511,12 +36773,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -38340,6 +38602,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063840501}
   m_Mesh: {fileID: 4300000, guid: 66eec8bc5f76eda4db6c6b5d91ab7f45, type: 3}
+--- !u!1 &1072939057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1107958516}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1073683038
 GameObject:
   m_ObjectHideFlags: 0
@@ -39481,6 +39749,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy mini (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
       propertyPath: m_RootOrder
@@ -39815,12 +40093,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -40352,12 +40630,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -40447,12 +40725,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -41243,6 +41521,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144259759}
   m_Mesh: {fileID: 4300000, guid: 66eec8bc5f76eda4db6c6b5d91ab7f45, type: 3}
+--- !u!1 &1145164534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 19433049}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1146233150 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
@@ -42298,6 +42582,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OctoEnemy mini (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
@@ -43533,6 +43827,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy mini (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
       propertyPath: m_RootOrder
@@ -43742,6 +44046,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -44894,6 +45208,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223093777}
   m_Mesh: {fileID: 4300000, guid: 66eec8bc5f76eda4db6c6b5d91ab7f45, type: 3}
+--- !u!1 &1223649768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2789734034439467171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1224132539
 GameObject:
   m_ObjectHideFlags: 0
@@ -47556,12 +47876,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -48424,6 +48744,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy mini (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
       propertyPath: m_RootOrder
@@ -49238,12 +49568,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -49385,12 +49715,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -53901,6 +54231,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 926b3e0ad8485604db6c5d94664caccb,
         type: 3}
       propertyPath: m_RootOrder
@@ -54961,6 +55301,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OctoEnemy mini (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
@@ -56644,6 +56994,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300861, guid: 926b3e0ad8485604db6c5d94664caccb,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -56812,12 +57172,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -57121,12 +57481,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -58287,12 +58647,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -59159,6 +59519,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_Name
@@ -59243,6 +59613,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -60348,6 +60728,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_Name
@@ -60442,6 +60832,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -61165,6 +61565,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
       propertyPath: movementSpeed
       value: 0
       objectReference: {fileID: 0}
@@ -61839,6 +62249,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
       propertyPath: movementSpeed
       value: 0
       objectReference: {fileID: 0}
@@ -62455,12 +62875,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -62971,12 +63391,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -63206,6 +63626,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -63772,6 +64202,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_Name
@@ -63964,6 +64404,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -64208,6 +64658,16 @@ PrefabInstance:
         type: 3}
       propertyPath: maxHealth
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -64662,6 +65122,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_Name
@@ -64760,12 +65230,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -66031,12 +66501,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -67835,6 +68305,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy mini (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
       propertyPath: m_RootOrder
@@ -68073,12 +68553,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -69128,6 +69608,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801780650}
   m_Mesh: {fileID: 4300000, guid: 2f78ec1bfcadebe44a46cbc4f60f1353, type: 3}
+--- !u!1 &1802171055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1192222416}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1802776612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 230189648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1804267877
 GameObject:
   m_ObjectHideFlags: 0
@@ -69182,6 +69674,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7, y: 1, z: 3}
   m_Center: {x: 2.83, y: 0.7, z: -0.8}
+--- !u!1 &1804369298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2040473794}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1804370930
 GameObject:
   m_ObjectHideFlags: 0
@@ -69301,6 +69799,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -72056,6 +72564,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy mini (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
       propertyPath: m_RootOrder
@@ -72378,6 +72896,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OctoEnemy mini (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
@@ -73023,6 +73551,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
       propertyPath: m_Name
@@ -73469,12 +74007,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -73564,12 +74102,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -73888,6 +74426,16 @@ PrefabInstance:
         type: 3}
       propertyPath: maxHealth
       value: 29.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
@@ -74272,6 +74820,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: m_Name
@@ -74357,6 +74915,16 @@ PrefabInstance:
         type: 3}
       propertyPath: stopRange
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level2Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -74801,12 +75369,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -75821,12 +76389,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -76477,12 +77045,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -76664,6 +77232,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -77396,6 +77974,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001018651}
   m_Mesh: {fileID: 4300000, guid: 2f78ec1bfcadebe44a46cbc4f60f1353, type: 3}
+--- !u!1 &2001186010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 944356212020300851, guid: 96eae519ab50e604bbfe48cf210d596a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1884240042}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2006068029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77492,6 +78076,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OctoEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 926b3e0ad8485604db6c5d94664caccb,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300861, guid: 926b3e0ad8485604db6c5d94664caccb,
         type: 3}
@@ -77652,6 +78246,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -78855,12 +79459,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -79308,6 +79912,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OctoEnemy mini (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
       propertyPath: m_RootOrder
@@ -79642,12 +80256,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -79737,12 +80351,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -80222,12 +80836,12 @@ PrefabInstance:
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level1Enemy
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205324, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
       propertyPath: level3Enemy
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
         type: 3}
@@ -80960,6 +81574,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171098362155453173, guid: b162c0e0410f4a948857667424bd4af2,
+        type: 3}
+      propertyPath: level3Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5171098362155453183, guid: b162c0e0410f4a948857667424bd4af2,
         type: 3}
@@ -83122,7 +83746,7 @@ PrefabInstance:
         type: 3}
       propertyPath: lvl4Door
       value: 
-      objectReference: {fileID: 1900575846}
+      objectReference: {fileID: 420979824}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: lvl5Door
@@ -83220,6 +83844,11 @@ PrefabInstance:
       objectReference: {fileID: 1849561688}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
+      propertyPath: lvl4enemies.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
       propertyPath: lvl3enemies.Array.data[0]
       value: 
       objectReference: {fileID: 1424592791}
@@ -83312,12 +83941,12 @@ PrefabInstance:
         type: 3}
       propertyPath: lvl4enemies.Array.data[8]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1223649768}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: lvl4enemies.Array.data[9]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1145164534}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: lvl5enemies.Array.data[0]
@@ -83607,7 +84236,62 @@ PrefabInstance:
         type: 3}
       propertyPath: lvl4enemies.Array.data[10]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 216263869}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[11]
+      value: 
+      objectReference: {fileID: 1804369298}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[12]
+      value: 
+      objectReference: {fileID: 894630987}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[13]
+      value: 
+      objectReference: {fileID: 1802776612}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[14]
+      value: 
+      objectReference: {fileID: 2001186010}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[15]
+      value: 
+      objectReference: {fileID: 1802171055}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[16]
+      value: 
+      objectReference: {fileID: 41276834}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[17]
+      value: 
+      objectReference: {fileID: 190009197}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[18]
+      value: 
+      objectReference: {fileID: 791028265}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[19]
+      value: 
+      objectReference: {fileID: 645730485}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[20]
+      value: 
+      objectReference: {fileID: 1072939057}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: lvl4enemies.Array.data[21]
+      value: 
+      objectReference: {fileID: 850388331}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e8139d69bb144e42a337ed8a9a5786f, type: 3}
 --- !u!1001 &2789734034439467171
@@ -83621,6 +84305,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OctoEnemy mini
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level1Enemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 944356212020300857, guid: 96eae519ab50e604bbfe48cf210d596a,
+        type: 3}
+      propertyPath: level4Enemy
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 944356212020300863, guid: 96eae519ab50e604bbfe48cf210d596a,
         type: 3}
