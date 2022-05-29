@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MutantBoss : MonoBehaviour
 {
-    public MeleeEnemy enemyToSpawn;
+    public GameObject enemyToSpawn;
     public Transform enemySpawnPos;
 
     GameObject bullet;
