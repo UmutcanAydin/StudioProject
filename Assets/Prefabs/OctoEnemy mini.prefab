@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 944356212020300856}
   - component: {fileID: 8608045325292427853}
   m_Layer: 7
-  m_Name: OctoEnemy
+  m_Name: OctoEnemy mini
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +212,7 @@ Transform:
   m_GameObject: {fileID: 944356212020300851}
   m_LocalRotation: {x: 0, y: 0.9659258, z: 0, w: 0.2588191}
   m_LocalPosition: {x: -82.24329, y: 8.2, z: 447.56396}
-  m_LocalScale: {x: 7.703585, y: 7.703585, z: 7.703585}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 944356211858783701}
   - {fileID: 944356211862730566}
@@ -220,7 +220,7 @@ Transform:
   - {fileID: 4210790758693896720}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 150, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 278.844, z: 0}
 --- !u!33 &944356212020300862
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -282,10 +282,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab14d5f530b35247aaefa9e35acf7b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 140
-  currentHealth: 140
-  movementSpeed: 8
-  stopRange: 50
+  maxHealth: 30
+  currentHealth: 30
+  movementSpeed: 12
+  stopRange: 30
   healthSlider: {fileID: 944356213178362352}
   projectilePosition: {fileID: 4206875333976116381}
   projectile: {fileID: 6631692135984192909, guid: 5187c0c1d83374849875c3f53a933d53,
