@@ -58,8 +58,9 @@ public class Enemy : MonoBehaviour
         {
             transform.LookAt(nearest.transform);
             if (hit) return;
-            //rgbd.velocity = transform.forward * movementSpeed;
-            rgbd.velocity = transform.forward * movementSpeed;
+            
+            if (flyingType)rgbd.velocity = transform.forward * movementSpeed;
+            else rgbd.velocity = new Vector3(transform.forward.x * movementSpeed, rgbd.velocity.y, transform.forward.z * movementSpeed);
 
             if (Vector3.Distance(transform.position, nearest.transform.position) < stopRange)
             {
