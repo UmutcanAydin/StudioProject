@@ -84867,32 +84867,32 @@ PrefabInstance:
         type: 3}
       propertyPath: checkPoints.Array.data[0]
       value: 
-      objectReference: {fileID: 1323036164}
+      objectReference: {fileID: 553747844}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: checkPoints.Array.data[1]
       value: 
-      objectReference: {fileID: 553747844}
+      objectReference: {fileID: 1174201412}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: checkPoints.Array.data[2]
       value: 
-      objectReference: {fileID: 1174201412}
+      objectReference: {fileID: 8525560}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: checkPoints.Array.data[3]
       value: 
-      objectReference: {fileID: 8525560}
+      objectReference: {fileID: 1659884226}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: checkPoints.Array.data[4]
       value: 
-      objectReference: {fileID: 1659884226}
+      objectReference: {fileID: 1028371268}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: checkPoints.Array.data[5]
       value: 
-      objectReference: {fileID: 1028371268}
+      objectReference: {fileID: 1323036164}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: lvl3enemies.Array.data[0]
@@ -86003,10 +86003,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1603101636, guid: 95d5cd90048d9ea4da672e2de811d9de, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1858504569, guid: 95d5cd90048d9ea4da672e2de811d9de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
