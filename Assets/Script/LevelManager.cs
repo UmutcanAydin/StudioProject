@@ -59,7 +59,7 @@ public class LevelManager : MonoBehaviour
         CharacterController player = FindObjectOfType<CharacterController>();
         player.enabled = false;
         player.transform.position = checkPoints[checkPointIndex].transform.position;
-        player.transform.forward = checkPoints[checkPointIndex].transform.forward;
+        player.transform.LookAt(checkPoints[checkPointIndex].transform.forward);
         player.enabled = true;
         
         missionText.text = level1Instruction;

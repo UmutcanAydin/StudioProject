@@ -84199,6 +84199,11 @@ PrefabInstance:
       objectReference: {fileID: 1482329679}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
+      propertyPath: checkPoints.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
       propertyPath: enemies.Array.data[10]
       value: 
       objectReference: {fileID: 1941457723}
@@ -84234,29 +84239,34 @@ PrefabInstance:
       objectReference: {fileID: 1849561688}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
-      propertyPath: checkPoints.Array.data[1]
+      propertyPath: checkPoints.Array.data[0]
       value: 
       objectReference: {fileID: 553747844}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
-      propertyPath: checkPoints.Array.data[2]
+      propertyPath: checkPoints.Array.data[1]
       value: 
       objectReference: {fileID: 1174201412}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
-      propertyPath: checkPoints.Array.data[3]
+      propertyPath: checkPoints.Array.data[2]
       value: 
       objectReference: {fileID: 8525560}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
-      propertyPath: checkPoints.Array.data[4]
+      propertyPath: checkPoints.Array.data[3]
       value: 
       objectReference: {fileID: 1659884226}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
-      propertyPath: checkPoints.Array.data[5]
+      propertyPath: checkPoints.Array.data[4]
       value: 
       objectReference: {fileID: 1028371268}
+    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
+        type: 3}
+      propertyPath: checkPoints.Array.data[5]
+      value: 
+      objectReference: {fileID: 1323036164}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
       propertyPath: checkPoints.Array.data[6]
@@ -85271,7 +85281,7 @@ PrefabInstance:
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 653.51154
+      value: 40.011536
       objectReference: {fileID: 0}
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
@@ -85281,27 +85291,27 @@ PrefabInstance:
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 256.6696
+      value: -482.3304
       objectReference: {fileID: 0}
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6898839
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7239201
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
@@ -85311,7 +85321,7 @@ PrefabInstance:
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 92.758
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643548671170630157, guid: fd3fe8300acf8644f891062db346b977,
         type: 3}
@@ -85356,10 +85366,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 5563601788271244408}
-    - target: {fileID: 1875943585, guid: 95d5cd90048d9ea4da672e2de811d9de, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestartGame
-      objectReference: {fileID: 0}
     - target: {fileID: 6969755019267910767, guid: 95d5cd90048d9ea4da672e2de811d9de,
         type: 3}
       propertyPath: m_AnchorMax.x
