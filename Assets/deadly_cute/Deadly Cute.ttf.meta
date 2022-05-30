@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 0f99ab02f5287ff4eb0d95b3897d4eb1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Deadly Cute
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d24e0c726227ad04bb8a8fa9115ccaee, type: 3}
+  - {fileID: 12800000, guid: c085cd64e21038d4692b69b61710d3bb, type: 3}
+  - {fileID: 12800000, guid: dac39fa53aa7f754e93001a3e8438b44, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
