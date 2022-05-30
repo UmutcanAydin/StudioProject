@@ -36,7 +36,7 @@ public class LevelManager : MonoBehaviour
     public GameObject[] lvl5enemies;
     public Door lvl5Door;
     [HideInInspector] public int level5DeadEnemyCount = 0;
-    bool level5Handled = false;
+    [HideInInspector] public bool level5Handled = false;
 
     [Header("Level 6 Settings")]
     public string level6Instruction = "Eliminate The Boss";

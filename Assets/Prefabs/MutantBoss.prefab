@@ -590,7 +590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce5a5518efd01fd4897156ed62daac5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyToSpawn: {fileID: 5385423034446205325, guid: 288bd8e4776e77e4dad9bb0389fd012e,
+  enemyToSpawn: {fileID: 5385423034446205325, guid: c670895010fe40c45bce87e318053efe,
     type: 3}
   enemySpawnPos: {fileID: 781473924}
   maxHealth: 100
