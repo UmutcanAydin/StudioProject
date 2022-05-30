@@ -38,6 +38,13 @@ public class LevelManager : MonoBehaviour
     [HideInInspector] public int level5DeadEnemyCount = 0;
     bool level5Handled = false;
 
+    [Header("Level 6 Settings")]
+    public string level6Instruction = "Eliminate The Boss";
+    public GameObject[] lvl6enemies;
+    [HideInInspector] public int level6DeadEnemyCount = 0;
+    bool level6Handled = false;
+    public GameObject youWonPanel;
+
     private void Start()
     {
         missionText.text = level1Instruction;
@@ -57,21 +64,33 @@ public class LevelManager : MonoBehaviour
             level3Handled = true;
             lvl3Door.keyFound = true;
             lvl3Door.Interact();
-            missionText.text = level3Instruction;
+            missionText.text = level4Instruction;
         }
         if (!level4Handled && level4DeadEnemyCount >= lvl4enemies.Length)
         {
             level4Handled = true;
             lvl4Door.keyFound = true;
             lvl4Door.Interact();
-            missionText.text = level4Instruction;
+            missionText.text = level5Instruction;
         }
         if (!level5Handled && level5DeadEnemyCount >= lvl5enemies.Length)
         {
             level5Handled = true;
             lvl5Door.keyFound = true;
             lvl5Door.Interact();
-            missionText.text = level5Instruction;
+            missionText.text = level6Instruction;
         }
+        if (!level6Handled && level6DeadEnemyCount >= lvl6enemies.Length)
+        {
+            level6Handled = true;
+            StartCoroutine(WinRoutine());
+        }
+    }
+
+    IEnumerator WinRoutine()
+    {
+        yield return new WaitForSeconds(1f);
+        youWonPanel.SetActive(true);
+        Time.timeScale = 0;
     }
 }

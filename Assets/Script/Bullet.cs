@@ -41,6 +41,13 @@ public class Bullet : MonoBehaviour
             meleeEnemy.RestartHitState();
             AudioManager.Instance.PlayWithoutPitch(AudioManager.Instance.hitEnemyFX, 1f);
         }
+        else if (other.GetComponent<MutantBoss>())
+        {
+            MutantBoss mutantBoss = other.GetComponent<MutantBoss>();
+            mutantBoss.TakeDamage(damage);
+
+            AudioManager.Instance.PlayWithoutPitch(AudioManager.Instance.hitEnemyFX, 1f);
+        }
         cld.enabled = false;
         rgbd.velocity = Vector3.zero;
         rgbd.AddForce(Vector3.up * 5, ForceMode.Impulse);

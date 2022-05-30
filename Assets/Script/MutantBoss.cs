@@ -7,7 +7,9 @@ public class MutantBoss : MonoBehaviour
 {
     public GameObject enemyToSpawn;
     public Transform enemySpawnPos;
-
+    LevelManager lvlManager;
+    public float maxHealth = 100;
+    public float currentHealth = 100;
     GameObject bullet;
     Rigidbody projectileRGBD;
     public float force = 20f;
@@ -36,6 +38,13 @@ public class MutantBoss : MonoBehaviour
     {
         playerStats = FindObjectOfType<PlayerStats>();
         animator = GetComponent<Animator>();
+        lvlManager = FindObjectOfType<LevelManager>();
+    }
+
+    private void Start()
+    {
+        healthSlider.maxValue = maxHealth;
+        healthSlider.value = maxHealth;
     }
 
     private void Update()
@@ -114,5 +123,17 @@ public class MutantBoss : MonoBehaviour
     {
         AudioManager.Instance.PlayWithoutPitch(AudioManager.Instance.hitPlayerFX, 1f);
         playerStats.TakeDamage(meleeDamage);
+    }
+
+    public void TakeDamage(float amount)
+    {
+        currentHealth -= amount;
+        healthSlider.value = currentHealth;
+
+        if (currentHealth <= 0)
+        {
+            if (level6Enemy) lvlManager.level6DeadEnemyCount++;
+            Destroy(gameObject);
+        }
     }
 }
