@@ -12,6 +12,14 @@ public class SceneManagement : MonoBehaviour
         levelManager = FindObjectOfType<LevelManager>();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            RestartGame();
+        }
+    }
+
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
