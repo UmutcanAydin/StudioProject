@@ -85020,11 +85020,6 @@ PrefabInstance:
       objectReference: {fileID: 1302996962}
     - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
         type: 3}
-      propertyPath: lvl6enemies.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2333669951999871527, guid: 1e8139d69bb144e42a337ed8a9a5786f,
-        type: 3}
       propertyPath: lvl3enemies.Array.data[10]
       value: 
       objectReference: {fileID: 666150870}
