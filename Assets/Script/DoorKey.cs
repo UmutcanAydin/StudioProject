@@ -5,6 +5,12 @@ using UnityEngine;
 public class DoorKey : MonoBehaviour
 {
     public Door connectedDoor;
+    LevelManager levelManager;
+
+    private void Awake()
+    {
+        levelManager = FindObjectOfType<LevelManager>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -12,6 +18,8 @@ public class DoorKey : MonoBehaviour
         {
             connectedDoor.keyFound = true;
             connectedDoor.Interact();
+            levelManager.checkPointIndex++;
+            levelManager.Save();
             Destroy(gameObject);
         }
     }

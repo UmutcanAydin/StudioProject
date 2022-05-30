@@ -45,8 +45,23 @@ public class LevelManager : MonoBehaviour
     bool level6Handled = false;
     public GameObject youWonPanel;
 
+    [Header("Checkpoints")]
+    public Transform[] checkPoints;
+    [HideInInspector] public int checkPointIndex = 0;
+
+    private void Awake()
+    {
+        CheckData();
+    }
+
     private void Start()
     {
+        CharacterController player = FindObjectOfType<CharacterController>();
+        player.enabled = false;
+        player.transform.position = checkPoints[checkPointIndex].transform.position;
+        player.transform.forward = checkPoints[checkPointIndex].transform.forward;
+        player.enabled = true;
+        
         missionText.text = level1Instruction;
     }
 
@@ -58,6 +73,8 @@ public class LevelManager : MonoBehaviour
             lvl1Door.keyFound = true;
             lvl1Door.Interact();
             missionText.text = level2Instruction;
+            checkPointIndex++;
+            Save();
         }
         if (!level3Handled && level3DeadEnemyCount >= lvl3enemies.Length)
         {
@@ -65,6 +82,8 @@ public class LevelManager : MonoBehaviour
             lvl3Door.keyFound = true;
             lvl3Door.Interact();
             missionText.text = level4Instruction;
+            checkPointIndex++;
+            Save();
         }
         if (!level4Handled && level4DeadEnemyCount >= lvl4enemies.Length)
         {
@@ -72,6 +91,8 @@ public class LevelManager : MonoBehaviour
             lvl4Door.keyFound = true;
             lvl4Door.Interact();
             missionText.text = level5Instruction;
+            checkPointIndex++;
+            Save();
         }
         if (!level5Handled && level5DeadEnemyCount >= lvl5enemies.Length)
         {
@@ -79,6 +100,8 @@ public class LevelManager : MonoBehaviour
             lvl5Door.keyFound = true;
             lvl5Door.Interact();
             missionText.text = level6Instruction;
+            checkPointIndex++;
+            Save();
         }
         if (!level6Handled && level6DeadEnemyCount >= lvl6enemies.Length)
         {
@@ -92,5 +115,16 @@ public class LevelManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         youWonPanel.SetActive(true);
         Time.timeScale = 0;
+    }
+
+    public void Save()
+    {
+        PlayerPrefs.SetInt("Checkpoints", checkPointIndex);
+    }
+
+    void CheckData()
+    {
+        if (PlayerPrefs.HasKey("Checkpoints")) checkPointIndex = PlayerPrefs.GetInt("Checkpoints");
+        else checkPointIndex = 0;
     }
 }
