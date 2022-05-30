@@ -165,6 +165,10 @@ MonoBehaviour:
   level5Instruction: Eliminate The Mini Boss
   lvl5enemies:
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   lvl5Door: {fileID: 0}
   level5DeadEnemyCount: 0
   level6Instruction: Eliminate The Boss
@@ -173,10 +177,10 @@ MonoBehaviour:
   level6DeadEnemyCount: 0
   youWonPanel: {fileID: 0}
   checkPoints:
-  - {fileID: 2333669951999871520}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  checkPointIndex: 0
