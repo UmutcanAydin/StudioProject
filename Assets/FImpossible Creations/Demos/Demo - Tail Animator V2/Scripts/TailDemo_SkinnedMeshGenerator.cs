@@ -1,4 +1,4 @@
-﻿using FIMSpace.FEditor;
+﻿//using FIMSpace.FEditor;
 using FIMSpace.FTail;
 using System;
 using System.Collections;
@@ -90,7 +90,7 @@ public class TailDemo_SkinnedMeshGenerator : MonoBehaviour
             Vector3 bonePos = transform.position + transform.TransformVector(GetBonePos(b));
             Vector3 fBonePos = transform.position + transform.TransformVector(GetBonePos(b+1));
 
-            FGUI_Handles.DrawBoneHandle(bonePos, fBonePos, transform.forward, 1f);
+            //FGUI_Handles.DrawBoneHandle(bonePos, fBonePos, transform.forward, 1f);
         }
 
         if (!DrawGizmos) return;
