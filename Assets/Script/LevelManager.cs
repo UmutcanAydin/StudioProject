@@ -37,6 +37,7 @@ public class LevelManager : MonoBehaviour
     public Door lvl5Door;
     [HideInInspector] public int level5DeadEnemyCount = 0;
     [HideInInspector] public bool level5Handled = false;
+    [HideInInspector] public int level5Passed = 0;
 
     [Header("Level 6 Settings")]
     public string level6Instruction = "Eliminate The Boss";
@@ -97,6 +98,7 @@ public class LevelManager : MonoBehaviour
         if (!level5Handled && level5DeadEnemyCount >= lvl5enemies.Length)
         {
             level5Handled = true;
+            level5Passed = 1;
             lvl5Door.keyFound = true;
             lvl5Door.Interact();
             missionText.text = level6Instruction;
@@ -120,11 +122,15 @@ public class LevelManager : MonoBehaviour
     public void Save()
     {
         PlayerPrefs.SetInt("Checkpoints", checkPointIndex);
+        PlayerPrefs.SetInt("BossAttacks", level5Passed);
     }
 
     void CheckData()
     {
         if (PlayerPrefs.HasKey("Checkpoints")) checkPointIndex = PlayerPrefs.GetInt("Checkpoints");
         else checkPointIndex = 0;
+
+        if (PlayerPrefs.HasKey("BossAttacks")) level5Passed = PlayerPrefs.GetInt("BossAttacks");
+        else level5Passed = 0;
     }
 }

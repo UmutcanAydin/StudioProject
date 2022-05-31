@@ -49,8 +49,8 @@ public class MutantBoss : MonoBehaviour
 
     private void Update()
     {
-        if (!lvlManager.level5Handled) return;
         healthSlider.transform.LookAt(playerStats.transform);
+        if (lvlManager.level5Passed == 0) return;
 
         if (Vector3.Distance(transform.position, playerStats.transform.position) > 40f && (!enemySpawned && !firing))
         {
