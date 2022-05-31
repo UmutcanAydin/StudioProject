@@ -74,7 +74,11 @@ public class Enemy : MonoBehaviour
             else
             {
                 firing = false;
-                if (fireRoutine != null) StopCoroutine(fireRoutine);
+                if (fireRoutine != null)
+                {
+                    StopCoroutine(fireRoutine);
+                    fireRoutine = null;
+                }
             }
         }
         else
@@ -101,7 +105,7 @@ public class Enemy : MonoBehaviour
     IEnumerator Fire()
     {
         while (firing)
-        { 
+        {
             bullet = Instantiate(projectile, projectilePosition.position, projectilePosition.rotation);
             projectileRGBD = bullet.GetComponent<Rigidbody>();
             bullet.transform.LookAt(playerStats.transform);
