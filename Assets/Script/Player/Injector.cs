@@ -33,5 +33,15 @@ public class Injector : MonoBehaviour
             enemy.RestartHitState();
             cld.enabled = false;
         }
+        else if (other.GetComponent<PukeEnemy>())
+        {
+            PukeEnemy enemy = other.GetComponent<PukeEnemy>();
+            enemy.TakeDamage(damage);
+
+            enemy.GetComponent<Rigidbody>().AddForce(new Vector3(0, enemy.transform.up.y * 2, transform.forward.z * 2) * 2, ForceMode.Impulse);
+            enemy.hit = true;
+            enemy.RestartHitState();
+            cld.enabled = false;
+        }
     }
 }
