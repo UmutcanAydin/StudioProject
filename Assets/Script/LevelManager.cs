@@ -73,7 +73,7 @@ public class LevelManager : MonoBehaviour
             lvl1Door.keyFound = true;
             lvl1Door.Interact();
             missionText.text = level2Instruction;
-            checkPointIndex++;
+            checkPointIndex = 1;
             Save();
         }
         if (!level3Handled && level3DeadEnemyCount >= lvl3enemies.Length)
@@ -82,7 +82,7 @@ public class LevelManager : MonoBehaviour
             lvl3Door.keyFound = true;
             lvl3Door.Interact();
             missionText.text = level4Instruction;
-            checkPointIndex++;
+            checkPointIndex = 3;
             Save();
         }
         if (!level4Handled && level4DeadEnemyCount >= lvl4enemies.Length)
@@ -91,7 +91,7 @@ public class LevelManager : MonoBehaviour
             lvl4Door.keyFound = true;
             lvl4Door.Interact();
             missionText.text = level5Instruction;
-            checkPointIndex++;
+            checkPointIndex = 4;
             Save();
         }
         if (!level5Handled && level5DeadEnemyCount >= lvl5enemies.Length)
@@ -100,7 +100,7 @@ public class LevelManager : MonoBehaviour
             lvl5Door.keyFound = true;
             lvl5Door.Interact();
             missionText.text = level6Instruction;
-            checkPointIndex++;
+            checkPointIndex = 5;
             Save();
         }
         if (!level6Handled && level6DeadEnemyCount >= lvl6enemies.Length)

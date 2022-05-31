@@ -18,7 +18,7 @@ public class DoorKey : MonoBehaviour
         {
             connectedDoor.keyFound = true;
             connectedDoor.Interact();
-            levelManager.checkPointIndex++;
+            levelManager.checkPointIndex = 2;
             levelManager.Save();
             Destroy(gameObject);
         }
