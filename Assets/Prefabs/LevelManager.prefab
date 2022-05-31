@@ -169,9 +169,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   lvl5Door: {fileID: 0}
   level5DeadEnemyCount: 0
   level5Handled: 0
+  level5Passed: 0
   level6Instruction: Eliminate The Boss
   lvl6enemies:
   - {fileID: 0}

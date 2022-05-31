@@ -29,7 +29,13 @@ public class SceneManagement : MonoBehaviour
     public void RestartGame()
     {
         PlayerPrefs.DeleteAll();
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
+        Time.timeScale = 1;
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
         Time.timeScale = 1;
     }
 
